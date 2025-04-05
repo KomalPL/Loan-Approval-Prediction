@@ -8,19 +8,19 @@ To build a predictive system that automatically determines whether a loan applic
 📁 Dataset
 Source: loan_approval_dataset.csv
 
-Columns: Includes numerical and categorical fields such as:
+- Columns: Includes numerical and categorical fields such as:
 
-income_annum
+- income_annum
 
-loan_amount
+- loan_amount
 
-loan_term
+- loan_term
 
-cibil_score
+- cibil_score
 
-residential_assets_value, commercial_assets_value, luxury_assets_value, bank_asset_value
+- residential_assets_value, commercial_assets_value, luxury_assets_value, bank_asset_value
 
-loan_status (Target)
+- loan_status (Target)
 
 🧰 Tools & Technologies
 - Language: Python
@@ -43,39 +43,39 @@ loan_status (Target)
 Data Loading
 Read and display CSV data, strip unwanted whitespace from column names.
 
-Data Preprocessing
+- Data Preprocessing
 
-Handle missing values
+- Handle missing values
 
-Label encode categorical columns
+- Label encode categorical columns
 
-Feature scale numerical columns
+- Feature scale numerical columns
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 
-Class balance (approved vs not)
+- Class balance (approved vs not)
 
-Boxplot for income distribution by loan status
+- Boxplot for income distribution by loan status
 
-Correlation heatmap
+- Correlation heatmap
 
-Model Training & Evaluation
+- Model Training & Evaluation
 
-Compare 4 classifiers
+- Compare 4 classifiers
 
-Evaluate with accuracy, confusion matrix, and classification report
+- Evaluate with accuracy, confusion matrix, and classification report
 
-Hyperparameter Tuning
+- Hyperparameter Tuning
 
-Grid search on Random Forest to find best parameters
+- Grid search on Random Forest to find best parameters
 
-Feature Importance
+- Feature Importance
 
-Visualize key predictors using built-in feature importance scores
+- Visualize key predictors using built-in feature importance scores
 
-Model Export
+- Model Export
 
-Save the final trained model (loan_approval_model.pkl) for deployment
+- Save the final trained model (loan_approval_model.pkl) for deployment
 
 📈 Results
 The Random Forest classifier delivered the best results after tuning.
