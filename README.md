@@ -23,21 +23,21 @@ residential_assets_value, commercial_assets_value, luxury_assets_value, bank_ass
 loan_status (Target)
 
 🧰 Tools & Technologies
-Language: Python
+- Language: Python
 
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 
-Modeling Techniques:
+- Modeling Techniques:
 
-Logistic Regression
+- Logistic Regression
 
-Decision Tree
+- Decision Tree
 
-Random Forest
+- Random Forest
 
-Gradient Boosting
+- Gradient Boosting
 
-GridSearchCV for hyperparameter tuning
+- GridSearchCV for hyperparameter tuning
 
 🛠️ Project Structure
 Data Loading
